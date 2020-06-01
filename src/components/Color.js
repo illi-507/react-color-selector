@@ -15,7 +15,7 @@ class Color extends React.Component {
                   {this.props.color.colorName} 
                  </div>    
                <div className="button" onClick={this.handleClick.bind(this)}>
-               <a href="" id="Copy"> COPY </a>    
+               <a href="" id="Copy"> COPYA </a>    
              </div>
             </div>
         );
