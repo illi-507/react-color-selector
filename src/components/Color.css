@@ -1,0 +1,42 @@
+.colorSquare {    
+    padding-top:50px;
+    border: 2px solid white;
+    flex:1;
+    text-align: center;
+    background-color: red;    
+  }
+
+
+  .button {
+   background-color: inherit;
+    text-align: center;
+    opacity: 0;
+    transition: opacity .35s ease;
+
+  }
+   .button a{
+    text-align: center;
+    color: white;
+    border: solid 2px white;  
+    text-decoration: none; 
+    padding:20px;
+    border: 3px solid #fff;
+    border-radius: 5px;   
+   }  
+
+
+  .word{
+    color:white;   
+    font-size: 20px;
+  }
+  .colorSquare:hover .button{
+      opacity: 1;
+  }
+  .colorSquare:hover .word{
+    opacity: 0;
+}
+  
+
+
+
+  
